@@ -1,0 +1,43 @@
+.new-tweet {
+    margin: 10px 40px 50px;
+}
+
+.tweet-label{
+
+    align-items: center;
+    color: #555;
+    
+}
+
+#tweet-text{
+    width: 100%;
+    height: 3em;
+    border: none;
+    border-bottom: 4px solid #666;
+    background: none;
+    outline: none;
+
+}
+
+#tweet-button{
+    font-family: Bungee;
+    background-color:  #4056a1;
+    color: white;
+    border: none;
+    padding: 5px;
+
+}
+.counter{
+    font-family: Bungee;
+   
+}
+.counter.red{
+    color: red;
+}
+
+.button-parrent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+}

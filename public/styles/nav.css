@@ -1,0 +1,52 @@
+nav {
+    height: 120;
+    width: 100%;
+    background-color: #4056A1;
+    color: #FFFF ;
+    font-family: "Bungee";
+    padding: 1.5em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+
+}
+nav span.logo {
+    font-family: "Bungee", cursive;
+  }
+  
+  nav div.nav-right-text {
+    margin-left: auto;
+    text-align: center;
+  }
+  
+  div.nav-right-text span {
+    display: block;
+    line-height: 0.8;
+  }
+  
+  @keyframes jump {
+    0% {
+      top: 0;
+    }
+    50% {
+      top: 6px;
+    }
+    100% {
+      top: 0;
+    }
+  }
+  
+  .nav-right-text img {
+    position: relative;
+  }
+  
+  .nav-right-text:hover {
+    cursor: pointer;
+  }
+  
+  .nav-right-text:hover img {
+    animation: jump 2s infinite;
+  }
+  
