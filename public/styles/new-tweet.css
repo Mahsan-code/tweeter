@@ -58,3 +58,15 @@
     border-left-color: #d9534f;
     background-color: rgba(217, 83, 79, 0.1);
   }
+
+  /* Laptops / Desktops: minimum width of 1024px */
+@media only screen and (min-width: 1024px) {
+    .container {
+      flex: 3;
+      margin-top: 120px;
+    }
+  
+    #main-header {
+      flex: 2;
+    }
+  }

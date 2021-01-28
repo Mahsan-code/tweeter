@@ -1,4 +1,4 @@
-.main-header{
+.main-header-class{
     height: 400px;
     width: 100%;
     display: flex;
@@ -13,4 +13,11 @@
 
 #main-header span {
     font-weight: 300;
+  }
+
+  /* Laptops / Desktops: minimum width of 1024px */
+@media only screen and (min-width: 1024px) {
+    #main-header {
+      margin: 200px 50px 0;
+    }
   }

@@ -39,9 +39,13 @@ $(document).ready(function () {
 
         }
     }
+    const renderTime = function (tweet) {
+        return moment(tweet.created_at).fromNow();
+      };
 
     const createTweetElement = function (tweet) {
-        const $tweet = $(`
+    // const time = renderTime(tweet);
+    const $tweet = $(`
     <article class="tweet">
     <header class="tweet-header">
       <div>
@@ -54,18 +58,18 @@ $(document).ready(function () {
     </header>
     <div class="tweet-content"> <p>${tweet.content.text}</p></div>
     <footer>
-      <p class="published-date">byyy</p>
+      <p class="published-date">${moment(tweet.created_at).fromNow()}</p>
       <span id="tweet-icons">
-        <img src="/images/profile-hex.png">
-        <img src="/images/profile-hex.png">
-        <img src="/images/profile-hex.png">
+        <img src="/images/flag24.png">
+        <img src="/images/retweet30px.png">
+        <img src="/images/heart.png">
       </span>
     </footer>
   
 </article>
-`)
+`);
 
-        return $tweet
+    return $tweet;
     }
 
     //   renderTweets(data);
@@ -124,6 +128,7 @@ $(document).ready(function () {
         div.appendChild(document.createTextNode(str));
         return div.innerHTML;
     };
+    
 
 
 });

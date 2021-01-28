@@ -90,3 +90,25 @@ article.tweet footer {
     color: #c8d4fa;
   }
 
+  .scrollToTop {
+    display: none;
+    width: 100px;
+    height: 130px;
+    padding: 10px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+  }
+  
+  .scrollToTop img {
+    background: #dc2b2a;
+    padding: 20px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .scrollToTop img:hover {
+    cursor: pointer;
+    background: #b22024;
+  }
+

@@ -50,3 +50,9 @@ nav span.logo {
     animation: jump 2s infinite;
   }
   
+  /* Laptops / Desktops: minimum width of 1024px */
+@media only screen and (min-width: 1024px) {
+    nav {
+      background: #4056a1;
+    }
+  }
