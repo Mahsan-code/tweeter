@@ -41,3 +41,20 @@
     justify-content: space-between;
     padding-top: 10px;
 }
+
+.error {
+    display: none;
+    color: #d9534f;
+    width: 80%;
+    background-color: #ffffff;
+    padding: 30px;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+    margin: 10px auto 35px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    border-left-color: #d9534f;
+    background-color: rgba(217, 83, 79, 0.1);
+  }
